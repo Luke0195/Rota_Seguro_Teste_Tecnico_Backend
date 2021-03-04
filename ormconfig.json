@@ -3,9 +3,9 @@
   "host": "localhost",
   "port":3306,
   "username": "root",
-  "password":"",
-  "database":"teste_tecnico",
-  "entities":["./entities/models/*.ts"],
+  "password":"root",
+  "database":"teste",
+  "entities": ["./src/models/*.ts"],
 
   "migrations":[
     "./src/database/migrations/*.ts"
