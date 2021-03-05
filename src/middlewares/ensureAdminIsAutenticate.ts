@@ -40,7 +40,7 @@ export default  async function(request: Request, response: Response, next:NextFu
     return next();
 
   }catch(error){
-    return response.status(400).json({ message:'Only admins are able to acess this route'});
+    return response.status(400).json({ message:'Missing JWT'});
   }
 
 }
