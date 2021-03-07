@@ -91,7 +91,7 @@ A aplicação foi divida em várias camadas cada uma contendo sua responsabilida
 
 ### Features Abordados no desenvolvimento do test
 
-<li>  Express <li>
+<li>  Express </li>
 <li> MySql </li>
 <li> Typescript </li>
 <li> Typeorm</li>
