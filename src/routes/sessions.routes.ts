@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import sessionController from '../controllers/SessionsController'
 
-import ensureUserAuthenticate from '../middlewares/ensureUserIsAutenticate'
+
 const sessionsRoutes = Router();
 
 
